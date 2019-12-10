@@ -1,0 +1,7 @@
+com\websecurity\models\ApiResponse.class
+com\websecurity\models\ApiResponseEnums.class
+com\websecurity\models\Report.class
+com\websecurity\models\SignUpRequest.class
+com\websecurity\models\Scans.class
+com\websecurity\models\User.class
+com\websecurity\models\Applications.class
