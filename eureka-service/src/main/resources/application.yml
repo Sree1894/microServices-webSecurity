@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka-server
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    eureka-server-connect-timeout-seconds: 0
+server:
+  port: 8761
+
+zuul:
+  prefix: /api
+  routes:
+    user-service:
+      path: /user-service/**
+      url: http://localhost:8080
